@@ -1,0 +1,101 @@
+.Title {
+    color:rgb(255, 255, 255);
+    border: 10px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 20%;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    
+    
+}
+p {
+    color:white;
+    font-size:x-large;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.Header {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color:rgb(0, 0, 0);
+    
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.gauche {
+    border: solid 2px rgb(255, 255, 255);
+    width: 40%;
+    height: 300px;
+    display:flex;
+    font-size: large;
+}
+.droite {
+    float: right;
+    border: solid 2px rgb(255, 255, 255);
+    width: 40%;
+    height: 250px;
+    display:flex;
+    font-size: large;
+    
+}
+.AirpodsPro {
+    color:rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    width: 80%;
+    height: 80%;
+    margin-top: auto;
+    display:flex;
+    
+}
+
+.Son-Spatial {
+    color:rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    margin-bottom: auto;
+    width: 40%;
+    height: 250px;
+}
+
+.contenu {
+    border: solid 5px rgb(255, 255, 255);
+    width: 40%;
+    height: 250px;
+}
+.droite:hover{
+    background-color: rgb(173, 173, 173);
+    color: rgb(70, 249, 159);
+}
+.gauche:hover{
+    background-color: rgb(173, 173, 173);
+    color: khaki;
+}
+
+.AirpodsPro:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+.contenu:hover{
+    background-color: rgb(173, 173, 173);
+}
