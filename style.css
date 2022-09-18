@@ -4,9 +4,6 @@ body {
     
 }
 
-p{
-    color: white;
-}
 h1 {
     font-size: 1000;
     font-family: 'Inter', sans-serif;
@@ -130,30 +127,26 @@ h3 {
 }
 
 .left {
-    padding-left:1900px;
+    padding-left:1600px;
     position:absolute;
     top: 60px;
     text-align: center;
 }
 
 .Puce{
-    padding-right: 500px;
-    width: 800px;
-    gap: 200px;
-    font-size: xx-large;
+    
+    font-size: x-large;
     display: flex;
     color: white;
     text-align: center;
     margin-top: 100px;
-    margin-left: 450px;
-    margin-right: auto;
-}
 
+}
 .centrecontrole{
     margin-left: auto;
     margin-right: auto;
     width: 350px;
-    margin-top: 0px;
+    margin-top: 50px;
 }
 .Transparence {
     margin-bottom: 15%;
@@ -164,15 +157,18 @@ h3 {
     font-size: xx-large;
     
 }
+
+.Transparenceimg{
+    margin-left: auto;
+    margin-right: auto;
+}
 .Transparence:hover{
     background-color: rgb(229, 229, 229);
     color: black;
 
 }
 
-.Transparencetext{
-    padding: 50px;
-}
+
 
 
 
@@ -226,12 +222,12 @@ h3 {
 
 .Taille{
     text-align: center;
-    width:2000px;
-    font-size: xx-large;
+    width:1650px;
+    font-size: x-large;
     color:rgb(255, 255, 255);
     margin-top: 20%;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -244,6 +240,7 @@ h3 {
     color: black;
     font-size: xx-large;
     font-weight:bold;
+    width:1800px;
 
 }
 .Bloc:hover{
@@ -262,12 +259,12 @@ h3 {
 
 .testembouts{
     position:static;
-    margin-left:400px;
+    margin-left:50px;
     
 }
 .Text{
     margin-top: 10%;
-    width: 100px;
+    width: 150px;
     color: white;
     text-align: justify;
     
@@ -372,19 +369,18 @@ h3 {
 
 footer{
     margin-top: 5%;
+    background-color: rgb(10, 10, 10);
+    gap: 10px;
 }
 .footer{
     color: white;
-    background-color: rgb(10, 10, 10);
+    
     font-family: 'Inter', sans-serif;
     display: flex;
-    gap: 10px;
-    width: 1300px;
-    height: 130px;
 }
 
 .Nom{
-    padding-left: 90%;
+    padding-left: 1200px
 }
 .LinkedIn{
     text-decoration: none;
